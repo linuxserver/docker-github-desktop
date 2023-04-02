@@ -2,15 +2,15 @@
 
 # jenkins variables
 project_name: docker-github-desktop
-external_type: os
-release_type: github_stable
+external_type: github_stable
+release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - BUILD_VERSION_ARG = 'GHDESKTOP_VERSION'
   - EXT_GIT_BRANCH = 'master'
   - EXT_USER = 'shiftkey'
   - EXT_REPO = 'desktop'
+  - BUILD_VERSION_ARG = 'GHDESKTOP_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-github-desktop'
   - CONTAINER_NAME = 'github-desktop'
