@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-github-desktop
+external_type: os
+release_type: github_stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - BUILD_VERSION_ARG = 'GHDESKTOP_VERSION'
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'shiftkey'
+  - EXT_REPO = 'desktop'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-github-desktop'
+  - CONTAINER_NAME = 'github-desktop'
+  - DOCKERHUB_IMAGE = 'linuxserver/github-desktop'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/github-desktop'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/github-desktop'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
