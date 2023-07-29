@@ -26,7 +26,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/ghdesktop.deb -L \
-    "https://github.com/shiftkey/desktop/releases/download/${GHDESKTOP_VERSION}/GitHubDesktop-linux-${GHDESKTOP_VERSION#release-}.deb" && \
+    "https://github.com/shiftkey/desktop/releases/download/${GHDESKTOP_VERSION}/GitHubDesktop-linux-amd64-${GHDESKTOP_VERSION#release-}.deb" && \
   apt install --no-install-recommends -y /tmp/ghdesktop.deb && \
   echo "**** install codium ****" && \
   CODIUM_VERSION=$(curl -sX GET "https://api.github.com/repos/VSCodium/vscodium/releases/latest" \
