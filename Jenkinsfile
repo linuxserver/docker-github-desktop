@@ -28,7 +28,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/github-desktop'
     PR_DOCKERHUB_IMAGE = 'lspipepr/github-desktop'
     DIST_IMAGE = 'ubuntu'
-    MULTIARCH = 'false'
+    MULTIARCH = 'true'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '3000'
