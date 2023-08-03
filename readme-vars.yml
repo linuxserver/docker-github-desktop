@@ -78,4 +78,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "03.08.23:", desc: "Rebase to Bookworm and multi arch." }
   - { date: "01.04.23:", desc: "Initial release." }

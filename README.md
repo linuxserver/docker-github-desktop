@@ -272,4 +272,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.08.23:** - Rebase to Bookworm and multi arch.
 * **01.04.23:** - Initial release.
