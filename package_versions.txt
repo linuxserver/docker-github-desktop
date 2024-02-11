@@ -84,6 +84,7 @@ chalk                                                                         5.
 chownr                                                                        2.0.0                                        npm        
 chromium                                                                      121.0.6167.160-1~deb12u1                     deb        
 chromium-common                                                               121.0.6167.160-1~deb12u1                     deb        
+chromium-l10n                                                                 121.0.6167.160-1~deb12u1                     deb        
 ci-info                                                                       3.9.0                                        npm        
 cidr-regex                                                                    3.1.1                                        npm        
 clean-stack                                                                   2.2.0                                        npm        
@@ -737,7 +738,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b           go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module  
-kclient                                                                       0.3.7                                        npm        
+kclient                                                                       0.3.8                                        npm        
 keyboard-configuration                                                        1.221                                        deb        
 krb5-locales                                                                  1.20.1-2+deb12u1                             deb        
 latex                                                                         1.0.0                                        npm        
