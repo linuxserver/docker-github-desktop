@@ -11,10 +11,15 @@ LABEL maintainer="thelamer"
 ENV TITLE=Github-Desktop
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     chromium \
+    chromium-l10n \
     git \
     ssh-askpass \
     thunar \
@@ -42,7 +47,6 @@ RUN \
   mv \
     /usr/bin/chromium \
     /usr/bin/chromium-real && \
-  sed -i 's|</applications>|  <application title="GitHub Desktop" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
