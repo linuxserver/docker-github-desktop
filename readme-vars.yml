@@ -6,25 +6,18 @@ project_url: "https://desktop.github.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png"
 project_blurb: "[Github Desktop]({{ project_url }}) is an open source Electron-based GitHub app. It is written in TypeScript and uses React."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-project_blurb_optional_extras_enabled: false
 
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 
-# development version
-development_versions: false
-
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Users home directory in the container, stores local files and settings" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "3000", internal_port: "3000", port_desc: "Github Desktop gui." }
@@ -33,7 +26,7 @@ custom_params:
   - { name: "shm-size", name_compose: "shm_size", value: "1gb",desc: "This is needed for electron applications to function properly." }
 cap_add_param: true
 cap_add_param_vars:
-  - { cap_add_var: "IPC_LOCK" }
+  - { cap_add_var: "IPC_LOCK", desc: "Required for keyring functionality." }
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Github Desktop runs in no-sandbox mode without it." }
