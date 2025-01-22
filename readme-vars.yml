@@ -6,6 +6,7 @@ project_url: "https://desktop.github.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png"
 project_blurb: "[Github Desktop]({{ project_url }}) is an open source Electron-based GitHub app. It is written in TypeScript and uses React."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Programming"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
