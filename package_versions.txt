@@ -37,7 +37,7 @@ NAME                                                                          VE
 @tufjs/canonical-json                                                         2.0.0                                   npm                         
 @tufjs/models                                                                 2.0.1                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
-@types/node                                                                   22.13.1                                 npm                         
+@types/node                                                                   22.13.4                                 npm                         
 @types/semver                                                                 7.5.8                                   npm                         
 @vscode/deviceid                                                              0.1.1                                   npm                         
 @vscode/iconv-lite-umd                                                        0.7.0                                   npm                         
@@ -49,17 +49,17 @@ NAME                                                                          VE
 @vscode/sudo-prompt                                                           9.3.1                                   npm                         
 @vscode/tree-sitter-wasm                                                      0.0.5                                   npm                         
 @vscode/vscode-languagedetection                                              1.0.21                                  npm                         
-@xterm/addon-clipboard                                                        0.2.0-beta.79                           npm                         
-@xterm/addon-image                                                            0.9.0-beta.96                           npm                         
-@xterm/addon-ligatures                                                        0.10.0-beta.96                          npm                         
-@xterm/addon-progress                                                         0.2.0-beta.2                            npm                         
-@xterm/addon-search                                                           0.16.0-beta.96                          npm                         
-@xterm/addon-serialize                                                        0.14.0-beta.96                          npm                         
-@xterm/addon-unicode11                                                        0.9.0-beta.96                           npm                         
-@xterm/addon-webgl                                                            0.19.0-beta.96                          npm                         
-@xterm/headless                                                               5.6.0-beta.96                           npm                         
-@xterm/xterm                                                                  5.6.0-beta.96                           npm                         
-VSCodium                                                                      1.97.0                                  npm                         
+@xterm/addon-clipboard                                                        0.2.0-beta.80                           npm                         
+@xterm/addon-image                                                            0.9.0-beta.97                           npm                         
+@xterm/addon-ligatures                                                        0.10.0-beta.97                          npm                         
+@xterm/addon-progress                                                         0.2.0-beta.3                            npm                         
+@xterm/addon-search                                                           0.16.0-beta.97                          npm                         
+@xterm/addon-serialize                                                        0.14.0-beta.97                          npm                         
+@xterm/addon-unicode11                                                        0.9.0-beta.97                           npm                         
+@xterm/addon-webgl                                                            0.19.0-beta.97                          npm                         
+@xterm/headless                                                               5.6.0-beta.97                           npm                         
+@xterm/xterm                                                                  5.6.0-beta.97                           npm                         
+VSCodium                                                                      1.97.2                                  npm                         
 abbrev                                                                        2.0.0                                   npm                         
 accepts                                                                       1.3.8                                   npm                         
 adduser                                                                       3.134                                   deb                         
@@ -104,16 +104,16 @@ builtin-notebook-renderers                                                    1.
 bytes                                                                         3.1.2                                   npm                         
 ca-certificates                                                               20230311                                deb                         
 cacache                                                                       18.0.3                                  npm                         
-call-bind-apply-helpers                                                       1.0.1                                   npm                         
+call-bind-apply-helpers                                                       1.0.2                                   npm                         
 call-bound                                                                    1.0.3                                   npm                         
 catatonit                                                                     0.1.7-1+b1                              deb                         
 chalk                                                                         4.1.2                                   npm                         
 chalk                                                                         5.3.0                                   npm                         
 chownr                                                                        2.0.0                                   npm        (+1 duplicate)   
 chrome-remote-interface                                                       0.33.0                                  npm                         
-chromium                                                                      133.0.6943.53-1~deb12u1                 deb                         
-chromium-common                                                               133.0.6943.53-1~deb12u1                 deb                         
-chromium-l10n                                                                 133.0.6943.53-1~deb12u1                 deb                         
+chromium                                                                      133.0.6943.98-1~deb12u1                 deb                         
+chromium-common                                                               133.0.6943.98-1~deb12u1                 deb                         
+chromium-l10n                                                                 133.0.6943.98-1~deb12u1                 deb                         
 ci-info                                                                       4.0.0                                   npm                         
 cidr-regex                                                                    4.1.1                                   npm                         
 clean-stack                                                                   2.2.0                                   npm                         
@@ -124,7 +124,7 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v0.5.4                                  go-module                   
 cmd-shim                                                                      6.0.3                                   npm                         
 code.cloudfoundry.org/clock                                                   v1.1.0                                  go-module                   
-codium                                                                        1.97.0.25037                            deb                         
+codium                                                                        1.97.2.25045                            deb                         
 coffeescript                                                                  1.0.0                                   npm                         
 color-convert                                                                 2.0.1                                   npm        (+1 duplicate)   
 color-name                                                                    1.1.4                                   npm        (+1 duplicate)   
@@ -787,7 +787,7 @@ javascript                                                                    1.
 jq                                                                            1.6-2.1                                 deb                         
 jq                                                                            1.7.1                                   binary                      
 js-base64                                                                     3.7.7                                   npm                         
-js-debug                                                                      1.97.0                                  npm                         
+js-debug                                                                      1.97.1                                  npm                         
 js-debug-companion                                                            1.1.3                                   npm                         
 jsbn                                                                          1.1.0                                   npm        (+1 duplicate)   
 jschardet                                                                     3.1.4                                   npm                         
@@ -1196,7 +1196,7 @@ libswresample4                                                                7:
 libswscale6                                                                   7:5.1.6-0+deb12u1                       deb                         
 libsystemd-shared                                                             252.33-1~deb12u1                        deb                         
 libsystemd0                                                                   252.33-1~deb12u1                        deb                         
-libtasn1-6                                                                    4.19.0-2                                deb                         
+libtasn1-6                                                                    4.19.0-2+deb12u1                        deb                         
 libtdb1                                                                       1.4.8-2                                 deb                         
 libthai-data                                                                  0.1.29-1                                deb                         
 libthai0                                                                      0.1.29-1                                deb                         
