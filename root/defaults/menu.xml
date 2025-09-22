@@ -5,6 +5,6 @@
 <item label="Github Desktop" icon="/usr/share/icons/hicolor/64x64/apps/github-desktop.png"><action name="Execute"><command>/usr/bin/github-desktop</command></action></item>
 <item label="Chromium" icon="/usr/share/icons/hicolor/48x48/apps/chromium.png"><action name="Execute"><command>/usr/bin/chromium</command></action></item>
 <item label="VSCodium" icon="/usr/share/pixmaps/vscodium.png"><action name="Execute"><command>/usr/bin/codium</command></action></item>
-<item label="File Manager" icon="/usr/share/icons/hicolor/scalable/apps/org.xfce.thunar.svg"><action name="Execute"><command>/usr/bin/thunar</command></action></item>
+<item label="File Manager" icon="/usr/share/icons/Adwaita/symbolic/legacy/system-file-manager-symbolic.svg"><action name="Execute"><command>/usr/bin/caja</command></action></item>
 </menu>
 </openbox_menu>

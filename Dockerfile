@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-selkies:debianbookworm
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-selkies:debiantrixie
 
 # set version label
 ARG BUILD_DATE
@@ -18,11 +20,11 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
+    caja \
     chromium \
     chromium-l10n \
     git \
     ssh-askpass \
-    thunar \
     xfce4-terminal && \
   echo "**** install github-desktop ****" && \
   if [ -z ${GHDESKTOP_VERSION+x} ]; then \
