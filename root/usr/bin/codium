@@ -2,12 +2,6 @@
 
 BIN=/usr/share/codium/bin/codium
 
-# Run normally on privved containers or modified un non priv
-if grep -q 'Seccomp:.0' /proc/1/status; then
-  ${BIN} \
-   "$@"
-else
-  ${BIN} \
+${BIN} \
   --no-sandbox \
    "$@"
-fi

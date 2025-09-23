@@ -26,9 +26,6 @@ custom_params:
 cap_add_param: true
 cap_add_param_vars:
   - {cap_add_var: "IPC_LOCK", desc: "Required for keyring functionality."}
-opt_security_opt_param: true
-opt_security_opt_param_vars:
-  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Github Desktop runs in no-sandbox mode without it."}
 # Selkies blurb settings
 selkies_blurb: true
 show_nvidia: true
@@ -108,6 +105,7 @@ init_diagram: |
   "github-desktop:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "03.08.23:", desc: "Rebase to Bookworm and multi arch."}
