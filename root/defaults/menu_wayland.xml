@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="Terminal Emulator" icon="/usr/share/pixmaps/xterm-color_48x48.xpm"><action name="Execute"><command>/usr/bin/xfce4-terminal</command></action></item>
+<item label="Github Desktop" icon="/usr/share/icons/hicolor/64x64/apps/github-desktop.png"><action name="Execute"><command>/usr/bin/github-desktop</command></action></item>
+<item label="Chromium" icon="/usr/share/icons/hicolor/48x48/apps/chromium.png"><action name="Execute"><command>/usr/bin/chromium</command></action></item>
+<item label="VSCodium" icon="/usr/share/pixmaps/vscodium.png"><action name="Execute"><command>/usr/bin/codium</command></action></item>
+<item label="File Manager" icon="/usr/share/icons/Adwaita/symbolic/legacy/system-file-manager-symbolic.svg"><action name="Execute"><command>/usr/bin/caja</command></action></item>
+</menu>
+</openbox_menu>
