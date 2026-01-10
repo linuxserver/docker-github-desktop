@@ -34,14 +34,14 @@ adwaita-icon-theme                                                            48
 agent-base                                                                    7.1.4                                   npm                         
 aiofiles                                                                      25.1.0                                  python                      
 aiohappyeyeballs                                                              2.6.1                                   python                      
-aiohttp                                                                       3.13.2                                  python                      
+aiohttp                                                                       3.13.3                                  python                      
 aioice                                                                        0.10.2                                  python                      
 aiosignal                                                                     1.4.0                                   python                      
 apt                                                                           3.0.3                                   deb                         
 apt-transport-https                                                           3.0.3                                   deb                         
 apt-utils                                                                     3.0.3                                   deb                         
-at-spi2-common                                                                2.56.2-1                                deb                         
-at-spi2-core                                                                  2.56.2-1                                deb                         
+at-spi2-common                                                                2.56.2-1+deb13u1                        deb                         
+at-spi2-core                                                                  2.56.2-1+deb13u1                        deb                         
 attrs                                                                         25.4.0                                  python                      
 autocommand                                                                   2.2.2                                   python                      
 av                                                                            14.4.0                                  python                      
@@ -73,9 +73,9 @@ catatonit                                                                     0.
 cffi                                                                          2.0.0                                   python                      
 chownr                                                                        2.0.0                                   npm                         
 chrome-remote-interface                                                       0.33.0                                  npm                         
-chromium                                                                      143.0.7499.169-1~deb13u1                deb                         
-chromium-common                                                               143.0.7499.169-1~deb13u1                deb                         
-chromium-l10n                                                                 143.0.7499.169-1~deb13u1                deb                         
+chromium                                                                      143.0.7499.192-1~deb13u1                deb                         
+chromium-common                                                               143.0.7499.192-1~deb13u1                deb                         
+chromium-l10n                                                                 143.0.7499.192-1~deb13u1                deb                         
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
@@ -142,8 +142,8 @@ dmsetup                                                                       2:
 dnspython                                                                     2.8.0                                   python                      
 docker                                                                        1.0.0                                   npm                         
 docker-buildx-plugin                                                          0.30.1-1~debian.13~trixie               deb                         
-docker-ce                                                                     5:29.1.3-1~debian.13~trixie             deb                         
-docker-ce-cli                                                                 5:29.1.3-1~debian.13~trixie             deb                         
+docker-ce                                                                     5:29.1.4-1~debian.13~trixie             deb                         
+docker-ce-cli                                                                 5:29.1.4-1~debian.13~trixie             deb                         
 docker-compose-plugin                                                         5.0.1-1~debian.13~trixie                deb                         
 dotenv                                                                        1.0.0                                   npm                         
 dpkg                                                                          1.22.21                                 deb                         
@@ -423,14 +423,13 @@ github.com/mitchellh/go-wordwrap                                              v1
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                  go-module  (+2 duplicates)  
 github.com/mitchellh/reflectwalk                                              v1.0.2                                  go-module                   
 github.com/moby/buildkit                                                      v0.26.1                                 go-module                   
-github.com/moby/buildkit                                                      v0.26.2                                 go-module                   
-github.com/moby/buildkit                                                      v0.26.3                                 go-module                   
+github.com/moby/buildkit                                                      v0.26.3                                 go-module  (+1 duplicate)   
 github.com/moby/docker-image-spec                                             v1.3.1                                  go-module  (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                  go-module  (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                  go-module                   
 github.com/moby/locker                                                        v1.0.1                                  go-module  (+4 duplicates)  
 github.com/moby/moby/api                                                      v1.52.0                                 go-module                   
-github.com/moby/moby/v2                                                       v29.1.3                                 go-module  (+1 duplicate)   
+github.com/moby/moby/v2                                                       v29.1.4                                 go-module  (+1 duplicate)   
 github.com/moby/patternmatcher                                                v0.6.0                                  go-module  (+2 duplicates)  
 github.com/moby/policy-helpers                                                v0.0.0-20251105011237-bcaa71c99f14      go-module                   
 github.com/moby/profiles/apparmor                                             v0.1.0                                  go-module                   
@@ -722,10 +721,10 @@ libasound2t64                                                                 1.
 libassuan9                                                                    3.0.2-2                                 deb                         
 libasyncns0                                                                   0.8-6+b5                                deb                         
 libatasmart4                                                                  0.19-5+b2                               deb                         
-libatk-bridge2.0-0t64                                                         2.56.2-1                                deb                         
-libatk1.0-0t64                                                                2.56.2-1                                deb                         
+libatk-bridge2.0-0t64                                                         2.56.2-1+deb13u1                        deb                         
+libatk1.0-0t64                                                                2.56.2-1+deb13u1                        deb                         
 libatomic1                                                                    14.2.0-19                               deb                         
-libatspi2.0-0t64                                                              2.56.2-1                                deb                         
+libatspi2.0-0t64                                                              2.56.2-1+deb13u1                        deb                         
 libattr1                                                                      1:2.5.2-3                               deb                         
 libaudit-common                                                               1:4.0.2-2                               deb                         
 libaudit1                                                                     1:4.0.2-2+b2                            deb                         
@@ -769,7 +768,7 @@ libcc1-0                                                                      14
 libcloudproviders0                                                            0.3.6-2                                 deb                         
 libcodec2-1.2                                                                 1.2.0-3                                 deb                         
 libcolord2                                                                    1.4.7-3                                 deb                         
-libcom-err2                                                                   1.47.2-3+b3                             deb                         
+libcom-err2                                                                   1.47.2-3+b7                             deb                         
 libcrypt-dev                                                                  1:4.4.38-1                              deb                         
 libcrypt1                                                                     1:4.4.38-1                              deb                         
 libcryptsetup12                                                               2:2.7.5-2                               deb                         
@@ -810,7 +809,7 @@ libexif12                                                                     0.
 libexo-2-0                                                                    4.20.0-1                                deb                         
 libexo-common                                                                 4.20.0-1                                deb                         
 libexpat1                                                                     2.7.1-2                                 deb                         
-libext2fs2t64                                                                 1.47.2-3+b3                             deb                         
+libext2fs2t64                                                                 1.47.2-3+b7                             deb                         
 libfcft4t64                                                                   3.3.1-1                                 deb                         
 libfdisk1                                                                     2.41-5                                  deb                         
 libffi8                                                                       3.4.8-2                                 deb                         
@@ -842,9 +841,9 @@ libgirepository-1.0-1                                                         1.
 libgl1                                                                        1.7.0-1+b2                              deb                         
 libgl1-mesa-dri                                                               25.0.7-2                                deb                         
 libgles2                                                                      1.7.0-1+b2                              deb                         
-libglib2.0-0t64                                                               2.84.4-3~deb13u1                        deb                         
-libglib2.0-bin                                                                2.84.4-3~deb13u1                        deb                         
-libglib2.0-data                                                               2.84.4-3~deb13u1                        deb                         
+libglib2.0-0t64                                                               2.84.4-3~deb13u2                        deb                         
+libglib2.0-bin                                                                2.84.4-3~deb13u2                        deb                         
+libglib2.0-data                                                               2.84.4-3~deb13u2                        deb                         
 libglu1-mesa                                                                  9.0.2-1.1+b3                            deb                         
 libglvnd0                                                                     1.7.0-1+b2                              deb                         
 libglx-mesa0                                                                  25.0.7-2                                deb                         
@@ -1243,7 +1242,7 @@ pillow                                                                        12
 pinentry-curses                                                               1.3.1-2                                 deb                         
 pinentry-gnome3                                                               1.3.1-2                                 deb                         
 pip                                                                           25.1.1                                  python                      
-pixelflux                                                                     1.5.3                                   python                      
+pixelflux                                                                     1.5.4                                   python                      
 platformdirs                                                                  4.2.2                                   python                      
 poppler-data                                                                  0.4.12-1                                deb                         
 powershell                                                                    1.0.0                                   npm                         
@@ -1382,6 +1381,7 @@ websockets                                                                    15
 wheel                                                                         0.45.1                                  python                      
 windows-foreground-love                                                       0.5.0                                   npm                         
 wl-clipboard                                                                  2.2.1-2                                 deb                         
+wlr-randr                                                                     0.4.1-1                                 deb                         
 wrappy                                                                        1.0.2                                   npm                         
 ws                                                                            7.5.10                                  npm                         
 wtype                                                                         0.4-3                                   deb                         
