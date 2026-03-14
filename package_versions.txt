@@ -35,7 +35,7 @@ NAME                                                                          VE
 @xterm/addon-webgl                                                            0.20.0-beta.166                        npm                         
 @xterm/headless                                                               6.1.0-beta.167                         npm                         
 @xterm/xterm                                                                  6.1.0-beta.167                         npm                         
-VSCodium                                                                      1.110.11602                            npm                         
+VSCodium                                                                      1.110.11631                            npm                         
 adduser                                                                       3.152                                  deb                         
 adwaita-icon-theme                                                            48.1-1                                 deb                         
 agent-base                                                                    7.1.4                                  npm                         
@@ -78,9 +78,9 @@ catatonit                                                                     0.
 cffi                                                                          2.0.0                                  python                      
 chownr                                                                        3.0.0                                  npm                         
 chrome-remote-interface                                                       0.33.0                                 npm                         
-chromium                                                                      145.0.7632.159-1~deb13u1               deb                         
-chromium-common                                                               145.0.7632.159-1~deb13u1               deb                         
-chromium-l10n                                                                 145.0.7632.159-1~deb13u1               deb                         
+chromium                                                                      146.0.7680.71-1~deb13u1                deb                         
+chromium-common                                                               146.0.7680.71-1~deb13u1                deb                         
+chromium-l10n                                                                 146.0.7680.71-1~deb13u1                deb                         
 cli                                                                           UNKNOWN                                binary                      
 cli-32                                                                        UNKNOWN                                binary                      
 cli-64                                                                        UNKNOWN                                binary                      
@@ -94,7 +94,7 @@ cloud.google.com/go/longrunning                                               v0
 cmake                                                                         3.31.6-2                               deb                         
 cmake-data                                                                    3.31.6-2                               deb                         
 code.cloudfoundry.org/clock                                                   v1.60.0                                go-module                   
-codium                                                                        1.110.11602                            deb                         
+codium                                                                        1.110.11631                            deb                         
 coffeescript                                                                  10.0.0                                 npm                         
 commander                                                                     12.1.0                                 npm                         
 commander                                                                     2.11.0                                 npm                         
@@ -858,7 +858,7 @@ libcc1-0                                                                      14
 libcloudproviders0                                                            0.3.6-2                                deb                         
 libcodec2-1.2                                                                 1.2.0-3                                deb                         
 libcolord2                                                                    1.4.7-3                                deb                         
-libcom-err2                                                                   1.47.2-3+b7                            deb                         
+libcom-err2                                                                   1.47.2-3+b10                           deb                         
 libcrypt-dev                                                                  1:4.4.38-1                             deb                         
 libcrypt1                                                                     1:4.4.38-1                             deb                         
 libcryptsetup12                                                               2:2.7.5-2                              deb                         
@@ -899,7 +899,7 @@ libexif12                                                                     0.
 libexo-2-0                                                                    4.20.0-1                               deb                         
 libexo-common                                                                 4.20.0-1                               deb                         
 libexpat1                                                                     2.7.1-2                                deb                         
-libext2fs2t64                                                                 1.47.2-3+b7                            deb                         
+libext2fs2t64                                                                 1.47.2-3+b10                           deb                         
 libfcft4t64                                                                   3.3.1-1                                deb                         
 libfdisk1                                                                     2.41-5                                 deb                         
 libffi8                                                                       3.4.8-2                                deb                         
