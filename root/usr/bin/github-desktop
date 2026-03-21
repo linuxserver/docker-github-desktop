@@ -2,4 +2,9 @@
 
 BIN=/usr/lib/github-desktop/github-desktop
 
-dbus-launch ${BIN} --password-store=basic --no-sandbox --test-type "$@"
+# Wayland check
+if pgrep labwc > /dev/null 2>&1; then
+  WAYLAND="--ozone-platform=wayland"
+fi
+
+dbus-launch ${BIN} --password-store=basic ${WAYLAND} --no-sandbox --test-type "$@"
