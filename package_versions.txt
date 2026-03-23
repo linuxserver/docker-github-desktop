@@ -1467,7 +1467,6 @@ wl-clipboard                                                                  2.
 wlr-randr                                                                     0.4.1-1                                deb                         
 wrappy                                                                        1.0.2                                  npm                         
 ws                                                                            7.5.10                                 npm                         
-wtype                                                                         0.4-3                                  deb                         
 x11-apps                                                                      7.7+11+b1                              deb                         
 x11-common                                                                    1:7.7+24+deb13u1                       deb                         
 x11-session-utils                                                             7.7+6+b1                               deb                         
