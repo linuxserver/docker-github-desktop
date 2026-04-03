@@ -1,3 +1,14 @@
 #! /bin/bash
-xdg-mime default caja.desktop inode/directory
+
+if [ ! -f "${HOME}/Desktop/github-desktop.desktop" ]; then
+  cp /usr/share/applications/github-desktop.desktop "${HOME}/Desktop/"
+  cp /usr/share/applications/chromium.desktop "${HOME}/Desktop/"
+  cp /usr/share/applications/codium.desktop "${HOME}/Desktop/"
+fi
+
+touch "${HOME}/.config/panel-reload"
+gio mime x-scheme-handler/http chromium.desktop
+gio mime x-scheme-handler/https chromium.desktop
+gio mime application/x-terminal-emulator foot.desktop
+
 dbus-launch github-desktop
