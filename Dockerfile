@@ -10,7 +10,11 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=Github-Desktop
+ENV TITLE=Github-Desktop \
+    NO_GAMEPAD=true \
+    NO_FULL=true \
+    SELKIES_DESKTOP=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -42,6 +46,9 @@ RUN \
     /tmp/codium.deb -L \
     "https://github.com/VSCodium/vscodium/releases/download/${CODIUM_VERSION}/codium_${CODIUM_VERSION}_amd64.deb" && \
   apt install --no-install-recommends -y /tmp/codium.deb && \
+  sed -i \
+    's:/usr/share/codium/codium:/usr/bin/codium:g' \
+    /usr/share/applications/codium.desktop && \
   echo "**** container tweaks ****" && \
   ln -s \
     /usr/bin/xfce4-terminal \
@@ -52,9 +59,24 @@ RUN \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
+    /tmp/* \
+    /usr/share/applications/caja-autorun-software.desktop \
+    /usr/share/applications/caja-computer.desktop \
+    /usr/share/applications/caja.desktop \
+    /usr/share/applications/caja-file-management-properties.desktop \
+    /usr/share/applications/caja-folder-handler.desktop \
+    /usr/share/applications/caja-home.desktop \
+    /usr/share/applications/codium-url-handler.desktop \
+    /usr/share/applications/debian-uxterm.desktop \
+    /usr/share/applications/debian-xterm.desktop \
+    /usr/share/applications/footclient.desktop \
+    /usr/share/applications/foot-server.desktop \
+    /usr/share/applications/mate-about.desktop \
+    /usr/share/applications/mate-color-select.desktop \
+    /usr/share/applications/st.desktop \
+    /usr/share/applications/xfce4-terminal-settings.desktop \
     /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+    /var/tmp/*
 
 # add local files
 COPY /root /
