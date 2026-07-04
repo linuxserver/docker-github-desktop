@@ -48,7 +48,7 @@ adduser                                                                       3.
 adwaita-icon-theme                                                            48.1-1                                 deb                         
 agent-base                                                                    7.1.4                                  npm                         
 aiofiles                                                                      25.1.0                                 python                      
-aiohappyeyeballs                                                              2.6.2                                  python                      
+aiohappyeyeballs                                                              2.7.1                                  python                      
 aiohttp                                                                       3.14.1                                 python                      
 aioice                                                                        0.10.2                                 python                      
 aiosignal                                                                     1.4.0                                  python                      
@@ -61,7 +61,7 @@ at-spi2-common                                                                2.
 at-spi2-core                                                                  2.56.2-1+deb13u1                       deb                         
 attrs                                                                         26.1.0                                 python                      
 autocommand                                                                   2.2.2                                  python                      
-av                                                                            17.1.0                                 python                      
+av                                                                            18.0.0                                 python                      
 await-semaphore                                                               0.1.3                                  npm                         
 axios                                                                         1.16.0                                 npm                         
 backports-tarfile                                                             1.2.0                                  python                      
@@ -173,7 +173,7 @@ docker                                                                        10
 docker-buildx-plugin                                                          0.35.0-1~debian.13~trixie              deb                         
 docker-ce                                                                     5:29.6.1-1~debian.13~trixie            deb                         
 docker-ce-cli                                                                 5:29.6.1-1~debian.13~trixie            deb                         
-docker-compose-plugin                                                         5.2.0-1~debian.13~trixie               deb                         
+docker-compose-plugin                                                         5.3.0-1~debian.13~trixie               deb                         
 dotenv                                                                        10.0.0                                 npm                         
 dpkg                                                                          1.22.22                                deb                         
 dunder-proto                                                                  1.0.1                                  npm                         
@@ -296,7 +296,7 @@ github.com/clipperhouse/uax29/v2                                              v2
 github.com/cloudflare/cfssl                                                   v1.6.5                                 go-module                   
 github.com/cloudflare/circl                                                   v1.6.3                                 go-module  (+1 duplicate)   
 github.com/compose-spec/compose-go/v2                                         v2.10.2                                go-module                   
-github.com/compose-spec/compose-go/v2                                         v2.12.1                                go-module                   
+github.com/compose-spec/compose-go/v2                                         v2.13.0                                go-module                   
 github.com/container-storage-interface/spec                                   v1.5.0                                 go-module                   
 github.com/containerd/accelerated-container-image                             v1.3.0                                 go-module                   
 github.com/containerd/btrfs/v2                                                v2.0.0                                 go-module                   
@@ -350,7 +350,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v29.6.0+incompatible                   go-module                   
 github.com/docker/cli-docs-tool                                               v0.11.0                                go-module  (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                go-module                   
-github.com/docker/compose/v5                                                  v5.2.0                                 go-module                   
+github.com/docker/compose/v5                                                  v5.3.0                                 go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                    go-module                   
 github.com/docker/docker                                                      v28.5.2+incompatible                   go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.9.8                                 go-module  (+1 duplicate)   
@@ -1301,8 +1301,8 @@ netbase                                                                       6.
 netcat-traditional                                                            1.10-50                                deb                         
 next-tick                                                                     1.1.0                                  npm                         
 nftables                                                                      1.1.3-1                                deb                         
-nginx                                                                         1.26.3-3+deb13u6                       deb                         
-nginx-common                                                                  1.26.3-3+deb13u6                       deb                         
+nginx                                                                         1.26.3-3+deb13u7                       deb                         
+nginx-common                                                                  1.26.3-3+deb13u7                       deb                         
 node-abi                                                                      3.8.0                                  npm                         
 node-gyp-build                                                                4.8.1                                  npm                         
 node-pty                                                                      1.2.0-beta.13                          npm                         
@@ -1334,7 +1334,7 @@ perl-modules-5.40                                                             5.
 php                                                                           10.0.0                                 npm                         
 php-language-features                                                         10.0.0                                 npm                         
 picomatch                                                                     4.0.4                                  npm                         
-pillow                                                                        12.2.0                                 python                      
+pillow                                                                        12.3.0                                 python                      
 pinentry-curses                                                               1.3.1-2                                deb                         
 pinentry-gnome3                                                               1.3.1-2                                deb                         
 pip                                                                           25.1.1                                 python                      
@@ -1456,7 +1456,7 @@ typedarray-to-buffer                                                          3.
 typescript                                                                    10.0.0                                 npm                         
 typescript                                                                    6.0.3                                  npm                         
 typescript-language-features                                                  10.0.0                                 npm                         
-typing-extensions                                                             4.15.0                                 python                      
+typing-extensions                                                             4.16.0                                 python                      
 tzdata                                                                        2026b-0+deb13u1                        deb                         
 udev                                                                          257.13-1~deb13u1                       deb                         
 udisks2                                                                       2.10.1-12.1+deb13u1                    deb                         
@@ -1510,8 +1510,8 @@ xkb-data                                                                      2.
 xkbcommon                                                                     1.5.1                                  python                      
 xml                                                                           10.0.0                                 npm                         
 xsel                                                                          1.2.1-1                                deb                         
-xserver-common                                                                2:21.1.16-1.3+deb13u2                  deb                         
-xserver-xorg-core                                                             2:21.1.16-1.3+deb13u2                  deb                         
+xserver-common                                                                2:21.1.16-1.3+deb13u3                  deb                         
+xserver-xorg-core                                                             2:21.1.16-1.3+deb13u3                  deb                         
 xserver-xorg-video-amdgpu                                                     23.0.0-1                               deb                         
 xserver-xorg-video-ati                                                        1:22.0.0-1                             deb                         
 xserver-xorg-video-intel                                                      2:2.99.917+git20210115-1               deb                         
@@ -1521,7 +1521,7 @@ xserver-xorg-video-radeon                                                     1:
 xsettingsd                                                                    1.0.2-1                                deb                         
 xterm                                                                         398-1                                  deb                         
 xutils                                                                        1:7.7+24+deb13u1                       deb                         
-xvfb                                                                          2:21.1.16-1.3+deb13u2                  deb                         
+xvfb                                                                          2:21.1.16-1.3+deb13u3                  deb                         
 xwayland                                                                      2:24.1.6-1                             deb                         
 yaeti                                                                         0.0.6                                  npm                         
 yallist                                                                       4.0.0                                  npm                         
