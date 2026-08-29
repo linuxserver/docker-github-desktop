@@ -102,14 +102,14 @@ certifi                                                                       20
 cffi                                                                          2.1.1                                   python                      
 chownr                                                                        3.0.0                                   npm                         
 chrome-remote-interface                                                       0.33.0                                  npm                         
-chromium                                                                      151.0.7922.169-1~deb13u1                deb                         
-chromium-common                                                               151.0.7922.169-1~deb13u1                deb                         
-chromium-l10n                                                                 151.0.7922.169-1~deb13u1                deb                         
+chromium                                                                      151.0.7922.173-1~deb13u1                deb                         
+chromium-common                                                               151.0.7922.173-1~deb13u1                deb                         
+chromium-l10n                                                                 151.0.7922.173-1~deb13u1                deb                         
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
 cli-arm64                                                                     UNKNOWN                                 binary                      
-click                                                                         8.4.2                                   python                      
+click                                                                         8.5.0                                   python                      
 clojure                                                                       10.0.0                                  npm                         
 cloud.google.com/go/auth                                                      v0.20.0                                 go-module                   
 cloud.google.com/go/auth/oauth2adapt                                          v0.2.8                                  go-module                   
@@ -127,7 +127,7 @@ commander                                                                     2.
 commander                                                                     8.3.0                                   npm                         
 configuration-editing                                                         10.0.0                                  npm                         
 console-data                                                                  2:1.12-9                                deb                         
-containerd.io                                                                 2.3.3-1~debian.13~trixie                deb                         
+containerd.io                                                                 2.3.4-1~debian.13~trixie                deb                         
 coreutils                                                                     9.7-3                                   deb                         
 cpp                                                                           10.0.0                                  npm                         
 cpp                                                                           4:14.2.0-1                              deb                         
@@ -136,7 +136,7 @@ cpp-14-x86-64-linux-gnu                                                       14
 cpp-x86-64-linux-gnu                                                          4:14.2.0-1                              deb                         
 cron                                                                          3.0pl1-197                              deb                         
 cron-daemon-common                                                            3.0pl1-197                              deb                         
-cryptography                                                                  50.0.0                                  python                      
+cryptography                                                                  50.0.1                                  python                      
 csharp                                                                        10.0.0                                  npm                         
 css                                                                           10.0.0                                  npm                         
 css-language-features                                                         10.0.0                                  npm                         
@@ -194,7 +194,7 @@ es-set-tostringtag                                                            2.
 es6-iterator                                                                  2.0.3                                   npm                         
 es6-symbol                                                                    3.1.3                                   npm                         
 esniff                                                                        2.0.1                                   npm                         
-evdev                                                                         1.9.3                                   python                      
+evdev                                                                         2.0.0                                   python                      
 event-emitter                                                                 0.3.5                                   npm                         
 exim4-base                                                                    4.98.2-1+deb13u4                        deb                         
 exim4-config                                                                  4.98.2-1+deb13u4                        deb                         
@@ -313,7 +313,8 @@ github.com/containerd/btrfs/v2                                                v2
 github.com/containerd/cgroups/v3                                              v3.1.3                                  go-module  (+3 duplicates)  
 github.com/containerd/console                                                 v1.0.5                                  go-module  (+6 duplicates)  
 github.com/containerd/containerd/api                                          v1.11.1                                 go-module  (+5 duplicates)  
-github.com/containerd/containerd/v2                                           v2.3.3                                  go-module  (+5 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.3                                  go-module  (+2 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.4                                  go-module  (+2 duplicates)  
 github.com/containerd/continuity                                              v0.5.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs                                                 v1.0.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs/pkg                                             v0.3.0                                  go-module  (+5 duplicates)  
@@ -787,13 +788,16 @@ json-language-features                                                        10
 jsonfile                                                                      6.1.0                                   npm                         
 julia                                                                         10.0.0                                  npm                         
 k8s.io/api                                                                    v0.36.0                                 go-module                   
-k8s.io/apimachinery                                                           v0.36.0                                 go-module  (+3 duplicates)  
-k8s.io/client-go                                                              v0.36.0                                 go-module  (+1 duplicate)   
-k8s.io/cri-api                                                                v0.36.0                                 go-module                   
-k8s.io/cri-streaming                                                          v0.36.0                                 go-module                   
+k8s.io/apimachinery                                                           v0.36.0                                 go-module  (+1 duplicate)   
+k8s.io/apimachinery                                                           v0.36.3                                 go-module  (+1 duplicate)   
+k8s.io/client-go                                                              v0.36.0                                 go-module                   
+k8s.io/client-go                                                              v0.36.3                                 go-module                   
+k8s.io/cri-api                                                                v0.36.3                                 go-module                   
+k8s.io/cri-streaming                                                          v0.36.3                                 go-module                   
 k8s.io/klog/v2                                                                v2.140.0                                go-module  (+3 duplicates)  
 k8s.io/kube-openapi                                                           v0.0.0-20260319004828-5883c5ee87b9      go-module                   
-k8s.io/streaming                                                              v0.36.0                                 go-module  (+1 duplicate)   
+k8s.io/streaming                                                              v0.36.0                                 go-module                   
+k8s.io/streaming                                                              v0.36.3                                 go-module                   
 k8s.io/utils                                                                  v0.0.0-20260319190234-28399d86e0b5      go-module  (+1 duplicate)   
 katex                                                                         0.16.22                                 npm                         
 kbd                                                                           2.7.1-2                                 deb                         
@@ -1121,7 +1125,7 @@ libspeex1                                                                     1.
 libspeexdsp1                                                                  1.2.1-3                                 deb                         
 libsqlite3-0                                                                  3.46.1-7+deb13u1                        deb                         
 libssh2-1t64                                                                  1.11.1-1+deb13u1                        deb                         
-libssl3t64                                                                    3.5.6-1~deb13u2                         deb                         
+libssl3t64                                                                    3.5.7-1~deb13u2                         deb                         
 libstartup-notification0                                                      0.12-8                                  deb                         
 libstdc++-14-dev                                                              14.2.0-19                               deb                         
 libstdc++6                                                                    14.2.0-19                               deb                         
@@ -1251,7 +1255,7 @@ libz3-4                                                                       4.
 libzstd1                                                                      1.5.7+dfsg-1                            deb                         
 libzvbi-common                                                                0.2.44-1                                deb                         
 libzvbi0t64                                                                   0.2.44-1                                deb                         
-linux-libc-dev                                                                6.12.101-1                              deb                         
+linux-libc-dev                                                                6.12.105-1                              deb                         
 linux-sysctl-defaults                                                         4.12.1                                  deb                         
 locales                                                                       2.41-12+deb13u3                         deb                         
 locales-all                                                                   2.41-12+deb13u3                         deb                         
@@ -1292,7 +1296,7 @@ more-itertools                                                                10
 mount                                                                         2.41.5-0+deb13u1                        deb                         
 ms                                                                            2.0.0                                   npm                         
 ms                                                                            2.1.3                                   npm                         
-msgpack                                                                       1.2.1                                   python                      
+msgpack                                                                       1.2.2                                   python                      
 multidict                                                                     6.7.1                                   python                      
 napi-build-utils                                                              2.0.0                                   npm                         
 native-is-elevated                                                            0.9.0                                   npm                         
@@ -1315,8 +1319,8 @@ once                                                                          1.
 open                                                                          10.1.2                                  npm                         
 openbox                                                                       3.6.1-12+b2                             deb                         
 openssh-client                                                                1:10.0p1-7+deb13u4                      deb                         
-openssl                                                                       3.5.6-1~deb13u2                         deb                         
-openssl-provider-legacy                                                       3.5.6-1~deb13u2                         deb                         
+openssl                                                                       3.5.7-1~deb13u2                         deb                         
+openssl-provider-legacy                                                       3.5.7-1~deb13u2                         deb                         
 opentype.js                                                                   2.0.0                                   npm                         
 p11-kit                                                                       0.25.5-3                                deb                         
 p11-kit-modules                                                               0.25.5-3                                deb                         
@@ -1358,8 +1362,8 @@ pulseaudio                                                                    17
 pulseaudio-utils                                                              17.0+dfsg1-2+b1                         deb                         
 pulsectl                                                                      24.12.0                                 python                      
 pycparser                                                                     3.0                                     python                      
-pydantic                                                                      2.13.4                                  python                      
-pydantic-core                                                                 2.46.4                                  python                      
+pydantic                                                                      2.13.5                                  python                      
+pydantic-core                                                                 2.46.5                                  python                      
 pyee                                                                          14.0.0                                  python                      
 pygobject                                                                     3.50.0                                  python                      
 pylibsrtp                                                                     1.0.0                                   python                      
@@ -1423,8 +1427,7 @@ ssh2                                                                          1.
 ssl-cert                                                                      1.1.3                                   deb                         
 starlette                                                                     1.6.0                                   python                      
 stdlib                                                                        go1.23.3                                go-module                   
-stdlib                                                                        go1.26.3                                go-module  (+3 duplicates)  
-stdlib                                                                        go1.26.5                                go-module  (+3 duplicates)  
+stdlib                                                                        go1.26.5                                go-module  (+7 duplicates)  
 stdlib                                                                        go1.26.6                                go-module                   
 string_decoder                                                                1.1.1                                   npm                         
 strip-json-comments                                                           2.0.1                                   npm                         
@@ -1493,7 +1496,7 @@ vulkan-tools                                                                  1.
 watchdog                                                                      6.0.0                                   python                      
 watchfiles                                                                    1.2.0                                   python                      
 websocket                                                                     1.0.35                                  npm                         
-websockets                                                                    17.0.1                                  python                      
+websockets                                                                    17.1                                    python                      
 wheel                                                                         0.46.3                                  python                      
 windows-foreground-love                                                       0.6.1                                   npm                         
 wl-clipboard                                                                  2.2.1-2                                 deb                         
