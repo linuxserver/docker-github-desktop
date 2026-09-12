@@ -1,54 +1,13 @@
 NAME                                                                          VERSION                                 TYPE                       
-@isaacs/fs-minipass                                                           4.0.1                                   npm                         
-@microsoft/1ds-core-js                                                        3.2.13                                  npm                         
-@microsoft/1ds-post-js                                                        3.2.13                                  npm                         
-@microsoft/applicationinsights-core-js                                        2.8.15                                  npm                         
-@microsoft/applicationinsights-shims                                          2.0.2                                   npm                         
-@microsoft/dev-tunnels-connections                                            1.3.48                                  npm                         
-@microsoft/dev-tunnels-contracts                                              1.3.48                                  npm                         
-@microsoft/dev-tunnels-management                                             1.3.48                                  npm                         
-@microsoft/dev-tunnels-ssh                                                    3.12.22                                 npm                         
-@microsoft/dev-tunnels-ssh-tcp                                                3.12.22                                 npm                         
-@microsoft/dynamicproto-js                                                    1.1.9                                   npm                         
-@microsoft/mxc-sdk                                                            0.6.0                                   npm                         
-@parcel/watcher                                                               2.5.6                                   npm                         
 @pondwader/socks5-server                                                      1.0.10                                  npm                         
-@tootallnate/once                                                             3.0.1                                   npm                         
-@types/semver                                                                 7.5.8                                   npm                         
-@vscode/codicons                                                              0.0.46-20                               npm                         
-@vscode/copilot-api                                                           0.4.2                                   npm                         
-@vscode/deviceid                                                              0.1.5                                   npm                         
-@vscode/diff                                                                  0.0.2-7                                 npm                         
 @vscode/fs-copyfile                                                           2.0.0                                   npm                         
-@vscode/iconv-lite-umd                                                        0.7.1                                   npm                         
-@vscode/native-watchdog                                                       1.4.6                                   npm                         
-@vscode/proxy-agent                                                           0.42.0                                  npm                         
-@vscode/ripgrep-universal                                                     1.18.0                                  npm                         
 @vscode/sandbox-runtime                                                       0.0.1                                   npm                         
-@vscode/spdlog                                                                0.15.8                                  npm                         
-@vscode/sqlite3                                                               5.1.12-vscode                           npm                         
-@vscode/sudo-prompt                                                           9.3.2                                   npm                         
-@vscode/tree-sitter-wasm                                                      0.3.1                                   npm                         
-@vscode/vscode-languagedetection                                              1.0.23                                  npm                         
-@vscodium/native-keymap                                                       3.3.7-258424                            npm                         
-@vscodium/policy-watcher                                                      1.3.2-252465                            npm                         
-@xterm/addon-clipboard                                                        0.3.0-beta.285                          npm                         
-@xterm/addon-image                                                            0.10.0-beta.285                         npm                         
-@xterm/addon-ligatures                                                        0.11.0-beta.285                         npm                         
-@xterm/addon-progress                                                         0.3.0-beta.285                          npm                         
-@xterm/addon-search                                                           0.17.0-beta.285                         npm                         
-@xterm/addon-serialize                                                        0.15.0-beta.285                         npm                         
-@xterm/addon-unicode11                                                        0.10.0-beta.285                         npm                         
-@xterm/addon-webgl                                                            0.20.0-beta.284                         npm                         
-@xterm/headless                                                               6.1.0-beta.285                          npm                         
-@xterm/xterm                                                                  6.1.0-beta.285                          npm                         
 Microsoft.PowerShell.PSReadLine                                               2.4.3                                   dotnet                      
 Microsoft.PowerShell.PSReadLine.Polyfiller                                    1.0.0.0                                 dotnet     (+1 duplicate)   
 Microsoft.PowerShell.Pager                                                    1.0.0.0                                 dotnet                      
-VSCodium                                                                      1.126.04524                             npm                         
+VSCodium                                                                      1.135.06055                             npm                         
 adduser                                                                       3.152                                   deb                         
 adwaita-icon-theme                                                            48.1-1                                  deb                         
-agent-base                                                                    7.1.4                                   npm                         
 aiofiles                                                                      25.1.0                                  python                      
 aiohappyeyeballs                                                              2.7.1                                   python                      
 aiohttp                                                                       3.14.3                                  python                      
@@ -56,52 +15,35 @@ aioice                                                                        0.
 aiosignal                                                                     1.4.0                                   python                      
 annotated-doc                                                                 0.0.5                                   python                      
 annotated-types                                                               0.8.0                                   python                      
-anyio                                                                         4.15.0                                  python                      
+anyio                                                                         4.15.1                                  python                      
 apt                                                                           3.0.3                                   deb                         
 apt-transport-https                                                           3.0.3                                   deb                         
 apt-utils                                                                     3.0.3                                   deb                         
-asn1                                                                          0.2.6                                   npm                         
-asynckit                                                                      0.4.0                                   npm                         
 at-spi2-common                                                                2.56.2-1+deb13u1                        deb                         
 at-spi2-core                                                                  2.56.2-1+deb13u1                        deb                         
 attrs                                                                         26.1.0                                  python                      
 autocommand                                                                   2.2.2                                   python                      
 av                                                                            18.1.0                                  python                      
-await-semaphore                                                               0.1.3                                   npm                         
-axios                                                                         1.16.0                                  npm                         
 backports-tarfile                                                             1.2.0                                   python                      
 base-files                                                                    13.8+deb13u6                            deb                         
 base-passwd                                                                   3.6.7                                   deb                         
-base64-js                                                                     1.5.1                                   npm                         
 bash                                                                          5.2.37-2+b9                             deb                         
 bash-completion                                                               1:2.16.0-7                              deb                         
 bat                                                                           10.0.0                                  npm                         
-bcrypt-pbkdf                                                                  1.0.2                                   npm                         
-bindings                                                                      1.5.0                                   npm                         
 binutils                                                                      2.44-3                                  deb                         
 binutils-common                                                               2.44-3                                  deb                         
 binutils-x86-64-linux-gnu                                                     2.44-3                                  deb                         
-bl                                                                            4.1.0                                   npm                         
-bn.js                                                                         4.12.3                                  npm                         
 breeze-cursor-theme                                                           4:6.3.5-1                               deb                         
-brorand                                                                       1.1.0                                   npm                         
 bsd-mailx                                                                     8.1.2-0.20220412cvs-1.1                 deb                         
 bsdextrautils                                                                 2.41.5-0+deb13u1                        deb                         
 bsdutils                                                                      1:2.41.5-0+deb13u1                      deb                         
-buffer                                                                        5.7.1                                   npm                         
-buffer-crc32                                                                  0.2.13                                  npm                         
-bufferutil                                                                    4.1.0                                   npm                         
 builtin-notebook-renderers                                                    10.0.0                                  npm                         
-bundle-name                                                                   4.1.0                                   npm                         
 ca-certificates                                                               20250419                                deb                         
 caja                                                                          1.26.4-1                                deb                         
 caja-common                                                                   1.26.4-1                                deb                         
-call-bind-apply-helpers                                                       1.0.2                                   npm                         
 catatonit                                                                     0.2.1-2+b13                             deb                         
 certifi                                                                       2026.7.22                               python                      
 cffi                                                                          2.1.1                                   python                      
-chownr                                                                        3.0.0                                   npm                         
-chrome-remote-interface                                                       0.33.0                                  npm                         
 chromium                                                                      152.0.7977.82-1~deb13u1                 deb                         
 chromium-common                                                               152.0.7977.82-1~deb13u1                 deb                         
 chromium-l10n                                                                 152.0.7977.82-1~deb13u1                 deb                         
@@ -119,15 +61,12 @@ cloud.google.com/go/longrunning                                               v1
 cmake                                                                         3.31.6-2                                deb                         
 cmake-data                                                                    3.31.6-2                                deb                         
 code.cloudfoundry.org/clock                                                   v1.60.0                                 go-module                   
-codium                                                                        1.126.04524                             deb                         
+codium                                                                        1.135.06055                             deb                         
 coffeescript                                                                  10.0.0                                  npm                         
-combined-stream                                                               1.0.8                                   npm                         
 commander                                                                     12.1.0                                  npm                         
-commander                                                                     2.11.0                                  npm                         
-commander                                                                     8.3.0                                   npm                         
 configuration-editing                                                         10.0.0                                  npm                         
 console-data                                                                  2:1.12-9                                deb                         
-containerd.io                                                                 2.3.4-2~debian.13~trixie                deb                         
+containerd.io                                                                 2.3.5-1~debian.13~trixie                deb                         
 coreutils                                                                     9.7-3                                   deb                         
 cpp                                                                           10.0.0                                  npm                         
 cpp                                                                           4:14.2.0-1                              deb                         
@@ -141,7 +80,6 @@ csharp                                                                        10
 css                                                                           10.0.0                                  npm                         
 css-language-features                                                         10.0.0                                  npm                         
 curl                                                                          8.14.1-2+deb13u4                        deb                         
-d                                                                             1.0.1                                   npm                         
 dario.cat/mergo                                                               v1.0.2                                  go-module  (+1 duplicate)   
 dart                                                                          10.0.0                                  npm                         
 dash                                                                          0.5.12-12                               deb                         
@@ -156,20 +94,10 @@ dconf-service                                                                 0.
 debconf                                                                       1.5.91                                  deb                         
 debian-archive-keyring                                                        2025.1                                  deb                         
 debianutils                                                                   5.23.2                                  deb                         
-debug                                                                         2.6.9                                   npm                         
-debug                                                                         4.4.3                                   npm                         
 debug-auto-launch                                                             10.0.0                                  npm                         
 debug-server-ready                                                            10.0.0                                  npm                         
-decompress-response                                                           6.0.0                                   npm                         
-deep-extend                                                                   0.6.0                                   npm                         
-default-browser                                                               5.2.1                                   npm                         
-default-browser-id                                                            5.0.0                                   npm                         
-define-lazy-prop                                                              3.0.0                                   npm                         
-delayed-stream                                                                1.0.0                                   npm                         
 desktop-file-utils                                                            0.28-1                                  deb                         
-detect-libc                                                                   2.1.2                                   npm                         
 diff                                                                          10.0.0                                  npm                         
-diffie-hellman                                                                5.0.3                                   npm                         
 diffutils                                                                     1:3.10-4                                deb                         
 dirmngr                                                                       2.4.7-21+deb13u1+b4                     deb                         
 distro                                                                        1.9.0                                   python                      
@@ -177,40 +105,26 @@ dmidecode                                                                     3.
 dmsetup                                                                       2:1.02.205-2                            deb                         
 dnspython                                                                     2.8.0                                   python                      
 docker                                                                        10.0.0                                  npm                         
-docker-buildx-plugin                                                          0.37.0-1~debian.13~trixie               deb                         
+docker-buildx-plugin                                                          0.37.1-1~debian.13~trixie               deb                         
 docker-ce                                                                     5:29.8.0-1~debian.13~trixie             deb                         
 docker-ce-cli                                                                 5:29.8.0-1~debian.13~trixie             deb                         
 docker-compose-plugin                                                         5.5.1-1~debian.13~trixie                deb                         
 dotenv                                                                        10.0.0                                  npm                         
 dpkg                                                                          1.22.22                                 deb                         
-dunder-proto                                                                  1.0.1                                   npm                         
 dunst                                                                         1.12.2-1                                deb                         
 emmet                                                                         10.0.0                                  npm                         
-end-of-stream                                                                 1.4.4                                   npm                         
-es-define-property                                                            1.0.1                                   npm                         
-es-errors                                                                     1.3.0                                   npm                         
-es-object-atoms                                                               1.1.1                                   npm                         
-es-set-tostringtag                                                            2.1.0                                   npm                         
-es6-iterator                                                                  2.0.3                                   npm                         
-es6-symbol                                                                    3.1.3                                   npm                         
-esniff                                                                        2.0.1                                   npm                         
 evdev                                                                         2.0.0                                   python                      
-event-emitter                                                                 0.3.5                                   npm                         
 exim4-base                                                                    4.98.2-1+deb13u4                        deb                         
 exim4-config                                                                  4.98.2-1+deb13u4                        deb                         
 exim4-daemon-light                                                            4.98.2-1+deb13u4                        deb                         
 exo-utils                                                                     4.20.0-1                                deb                         
-expand-template                                                               2.0.3                                   npm                         
-ext                                                                           1.4.0                                   npm                         
 extension-editing                                                             10.0.0                                  npm                         
 fastapi                                                                       0.141.1                                 python                      
 file                                                                          1:5.46-5                                deb                         
-file-uri-to-path                                                              1.0.0                                   npm                         
 findutils                                                                     4.10.0-3                                deb                         
 firmware-amd-graphics                                                         20250410-2                              deb                         
 firmware-linux-nonfree                                                        20250410-2                              deb                         
 firmware-misc-nonfree                                                         20250410-2                              deb                         
-follow-redirects                                                              1.16.0                                  npm                         
 fontconfig                                                                    2.15.0-2.3                              deb                         
 fontconfig-config                                                             2.15.0-2.3                              deb                         
 fonts-dejavu-core                                                             2.37-8                                  deb                         
@@ -221,12 +135,8 @@ fonts-noto-core                                                               20
 fonts-noto-mono                                                               20201225-2                              deb                         
 fonts-urw-base35                                                              20200910-8                              deb                         
 foot                                                                          1.21.0-2                                deb                         
-form-data                                                                     4.0.6                                   npm                         
 frozenlist                                                                    1.8.0                                   python                      
-fs-constants                                                                  1.0.0                                   npm                         
-fs-extra                                                                      11.2.0                                  npm                         
 fsharp                                                                        10.0.0                                  npm                         
-function-bind                                                                 1.1.2                                   npm                         
 fuse-overlayfs                                                                1.14-1+b1                               deb                         
 fuse3                                                                         3.17.2-3                                deb                         
 g++                                                                           4:14.2.0-1                              deb                         
@@ -240,8 +150,6 @@ gcc-14-x86-64-linux-gnu                                                       14
 gcc-x86-64-linux-gnu                                                          4:14.2.0-1                              deb                         
 gcr                                                                           3.41.2-3                                deb                         
 gcr4                                                                          4.4.0.1-3                               deb                         
-get-intrinsic                                                                 1.3.0                                   npm                         
-get-proto                                                                     1.0.1                                   npm                         
 gir1.2-atspi-2.0                                                              2.56.2-1+deb13u1                        deb                         
 gir1.2-freedesktop                                                            1.84.0-1                                deb                         
 gir1.2-girepository-2.0                                                       1.84.0-1                                deb                         
@@ -254,7 +162,6 @@ github                                                                        0.
 github-authentication                                                         0.0.2                                   npm                         
 github-desktop                                                                3.4.13-linux1                           deb                         
 github-desktop                                                                3.4.13-linux1                           npm                         
-github-from-package                                                           0.0.0                                   npm                         
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                   
 github.com/Azure/azure-sdk-for-go/sdk/azcore                                  v1.21.1                                 go-module                   
 github.com/Azure/azure-sdk-for-go/sdk/internal                                v1.12.0                                 go-module                   
@@ -315,7 +222,8 @@ github.com/containerd/btrfs/v2                                                v2
 github.com/containerd/cgroups/v3                                              v3.1.3                                  go-module  (+3 duplicates)  
 github.com/containerd/console                                                 v1.0.5                                  go-module  (+6 duplicates)  
 github.com/containerd/containerd/api                                          v1.11.1                                 go-module  (+5 duplicates)  
-github.com/containerd/containerd/v2                                           v2.3.4                                  go-module  (+5 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.4                                  go-module  (+2 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.5                                  go-module  (+2 duplicates)  
 github.com/containerd/continuity                                              v0.5.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs                                                 v1.0.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs/pkg                                             v0.3.0                                  go-module  (+5 duplicates)  
@@ -329,8 +237,7 @@ github.com/containerd/log                                                     v0
 github.com/containerd/nri                                                     v0.12.0                                 go-module                   
 github.com/containerd/nri                                                     v0.12.2                                 go-module                   
 github.com/containerd/otelttrpc                                               v0.1.0                                  go-module  (+1 duplicate)   
-github.com/containerd/platforms                                               v1.0.0-rc.4                             go-module  (+1 duplicate)   
-github.com/containerd/platforms                                               v1.0.0-rc.5                             go-module  (+2 duplicates)  
+github.com/containerd/platforms                                               v1.0.0-rc.5                             go-module  (+4 duplicates)  
 github.com/containerd/plugin                                                  v1.1.0                                  go-module  (+3 duplicates)  
 github.com/containerd/stargz-snapshotter/estargz                              v0.18.2                                 go-module                   
 github.com/containerd/ttrpc                                                   v1.2.8                                  go-module  (+2 duplicates)  
@@ -352,7 +259,7 @@ github.com/digitorus/pkcs7                                                    v0
 github.com/digitorus/timestamp                                                v0.0.0-20231217203849-220c5c2851b7      go-module  (+1 duplicate)   
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module                   
 github.com/distribution/reference                                             v0.6.0                                  go-module  (+4 duplicates)  
-github.com/docker/buildx                                                      v0.37.0                                 go-module                   
+github.com/docker/buildx                                                      v0.37.1                                 go-module                   
 github.com/docker/cli                                                         v29.7.2+incompatible                    go-module  (+1 duplicate)   
 github.com/docker/cli-docs-tool                                               v0.11.0                                 go-module  (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                   
@@ -747,7 +654,6 @@ google.golang.org/grpc                                                        v1
 google.golang.org/grpc                                                        v1.83.2                                 go-module  (+2 duplicates)  
 google.golang.org/protobuf                                                    v1.36.12                                go-module  (+2 duplicates)  
 google.golang.org/protobuf                                                    v1.36.12-0.20260120151049-f2248ac996af  go-module  (+2 duplicates)  
-gopd                                                                          1.2.0                                   npm                         
 gopkg.in/inf.v0                                                               v0.9.1                                  go-module  (+3 duplicates)  
 gopkg.in/ini.v1                                                               v1.67.3                                 go-module                   
 gopkg.in/yaml.v3                                                              v3.0.1                                  go-module  (+3 duplicates)  
@@ -759,7 +665,6 @@ gpgconf                                                                       2.
 gpgsm                                                                         2.4.7-21+deb13u1+b4                     deb                         
 gpgv                                                                          2.4.7-21+deb13u1+b4                     deb                         
 gputil                                                                        1.4.0                                   python                      
-graceful-fs                                                                   4.2.11                                  npm                         
 grep                                                                          3.11-4                                  deb                         
 groff-base                                                                    1.23.0-9                                deb                         
 groovy                                                                        10.0.0                                  npm                         
@@ -778,39 +683,24 @@ gvfs-libs                                                                     1.
 gzip                                                                          1.13-1                                  deb                         
 h11                                                                           0.16.0                                  python                      
 handlebars                                                                    10.0.0                                  npm                         
-has-symbols                                                                   1.1.0                                   npm                         
-has-tostringtag                                                               1.0.2                                   npm                         
-hasown                                                                        2.0.4                                   npm                         
 hicolor-icon-theme                                                            0.18-2                                  deb                         
 hlsl                                                                          10.0.0                                  npm                         
 hostname                                                                      3.25                                    deb                         
 html                                                                          10.0.0                                  npm                         
 html-language-features                                                        10.0.0                                  npm                         
-http-proxy-agent                                                              7.0.2                                   npm                         
 httpcore                                                                      1.0.9                                   python                      
-https-proxy-agent                                                             7.0.6                                   npm                         
 httptools                                                                     0.8.0                                   python                      
 httpx                                                                         0.28.1                                  python                      
 i965-va-driver-shaders                                                        2.4.1-2                                 deb                         
 idna                                                                          3.19                                    python                      
-ieee754                                                                       1.2.1                                   npm                         
 ifaddr                                                                        0.2.0                                   python                      
 importlib-metadata                                                            8.7.1                                   python                      
-inherits                                                                      2.0.4                                   npm                         
-ini                                                                           1.3.8                                   npm                         
 ini                                                                           10.0.0                                  npm                         
 init-system-helpers                                                           1.69~deb13u1                            deb                         
 intel-media-va-driver                                                         25.2.3+dfsg1-1                          deb                         
-ip-address                                                                    10.2.0                                  npm                         
 iproute2                                                                      6.15.0-1                                deb                         
 iptables                                                                      1.8.11-2                                deb                         
 ipynb                                                                         10.0.0                                  npm                         
-is-docker                                                                     3.0.0                                   npm                         
-is-extglob                                                                    2.1.1                                   npm                         
-is-glob                                                                       4.0.3                                   npm                         
-is-inside-container                                                           1.0.0                                   npm                         
-is-typedarray                                                                 1.0.0                                   npm                         
-is-wsl                                                                        3.1.0                                   npm                         
 iso-codes                                                                     4.18.0-1                                deb                         
 jake                                                                          10.0.0                                  npm                         
 jaraco-context                                                                6.1.0                                   python                      
@@ -822,10 +712,8 @@ jq                                                                            1.
 jq                                                                            1.8.2                                   binary                      
 js-debug                                                                      1.117.0                                 npm                         
 js-debug-companion                                                            1.1.3                                   npm                         
-jschardet                                                                     3.1.4                                   npm                         
 json                                                                          10.0.0                                  npm                         
 json-language-features                                                        10.0.0                                  npm                         
-jsonfile                                                                      6.1.0                                   npm                         
 julia                                                                         10.0.0                                  npm                         
 k8s.io/api                                                                    v0.36.3                                 go-module                   
 k8s.io/apimachinery                                                           v0.36.3                                 go-module  (+3 duplicates)  
@@ -836,9 +724,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20260319004828-5883c5ee87b9      go-module                   
 k8s.io/streaming                                                              v0.36.3                                 go-module  (+1 duplicate)   
 k8s.io/utils                                                                  v0.0.0-20260319190234-28399d86e0b5      go-module  (+1 duplicate)   
-katex                                                                         0.16.22                                 npm                         
 kbd                                                                           2.7.1-2                                 deb                         
-kerberos                                                                      2.1.1                                   npm                         
 keyboard-configuration                                                        1.242~deb13u1                           deb                         
 krb5-locales                                                                  1.21.3-5+deb13u1                        deb                         
 labwc                                                                         0.8.3-1                                 deb                         
@@ -904,7 +790,7 @@ libcc1-0                                                                      14
 libcloudproviders0                                                            0.3.6-2                                 deb                         
 libcodec2-1.2                                                                 1.2.0-3                                 deb                         
 libcolord2                                                                    1.4.7-3                                 deb                         
-libcom-err2                                                                   1.47.2-3+b11                            deb                         
+libcom-err2                                                                   1.47.2-3+b12                            deb                         
 libcrypt-dev                                                                  1:4.4.38-1                              deb                         
 libcrypt1                                                                     1:4.4.38-1                              deb                         
 libcryptsetup12                                                               2:2.7.5-2                               deb                         
@@ -918,7 +804,7 @@ libdav1d7                                                                     1.
 libdb5.3t64                                                                   5.3.28+dfsg2-9                          deb                         
 libdbus-1-3                                                                   1.16.2-2                                deb                         
 libdconf1                                                                     0.40.0-5                                deb                         
-libde265-0                                                                    1.0.15-1+deb13u1                        deb                         
+libde265-0                                                                    1.0.15-1+deb13u2                        deb                         
 libdebconfclient0                                                             0.280                                   deb                         
 libdecor-0-0                                                                  0.2.2-2                                 deb                         
 libdeflate0                                                                   1.23-2                                  deb                         
@@ -939,13 +825,13 @@ libepoxy0                                                                     1.
 liberror-perl                                                                 0.17030-1                               deb                         
 libev4t64                                                                     1:4.33-2.1+b1                           deb                         
 libevdev2                                                                     1.13.4+dfsg-1                           deb                         
-libevent-2.1-7t64                                                             2.1.12-stable-10+b1                     deb                         
+libevent-2.1-7t64                                                             2.1.13-stable-1~deb13u1                 deb                         
 libexempi8                                                                    2.6.6-2                                 deb                         
 libexif12                                                                     0.6.25-1+deb13u1                        deb                         
 libexo-2-0                                                                    4.20.0-1                                deb                         
 libexo-common                                                                 4.20.0-1                                deb                         
 libexpat1                                                                     2.8.3-1~deb13u1                         deb                         
-libext2fs2t64                                                                 1.47.2-3+b11                            deb                         
+libext2fs2t64                                                                 1.47.2-3+b12                            deb                         
 libfcft4t64                                                                   3.3.1-1                                 deb                         
 libfdisk1                                                                     2.41.5-0+deb13u1                        deb                         
 libffi8                                                                       3.4.8-2                                 deb                         
@@ -1000,7 +886,7 @@ libgs10                                                                       10
 libgs10-common                                                                10.05.1~dfsg-1+deb13u1                  deb                         
 libgsm1                                                                       1.0.22-1+b2                             deb                         
 libgssapi-krb5-2                                                              1.21.3-5+deb13u1                        deb                         
-libgstreamer-plugins-base1.0-0                                                1.26.2-1+deb13u1                        deb                         
+libgstreamer-plugins-base1.0-0                                                1.26.2-1+deb13u2                        deb                         
 libgstreamer1.0-0                                                             1.26.2-2                                deb                         
 libgtk-3-0t64                                                                 3.24.49-3                               deb                         
 libgtk-3-common                                                               3.24.49-3                               deb                         
@@ -1032,7 +918,7 @@ libitm1                                                                       14
 libjack-jackd2-0                                                              1.9.22~dfsg-4                           deb                         
 libjansson4                                                                   2.14-2+b3                               deb                         
 libjbig0                                                                      2.1-6.1+b2                              deb                         
-libjbig2dec0                                                                  0.20-1+b3                               deb                         
+libjbig2dec0                                                                  0.20-1+deb13u1                          deb                         
 libjpeg62-turbo                                                               1:2.1.5-4                               deb                         
 libjq1                                                                        1.7.1-6+deb13u3                         deb                         
 libjson-c5                                                                    0.18+ds-1                               deb                         
@@ -1299,18 +1185,16 @@ locales-all                                                                   2.
 log                                                                           10.0.0                                  npm                         
 login                                                                         1:4.16.0-2+really2.41.5-0+deb13u1       deb                         
 login.defs                                                                    1:4.17.4-2                              deb                         
-lru-cache                                                                     11.5.1                                  npm                         
 lsof                                                                          4.99.4+dfsg-2                           deb                         
 lua                                                                           10.0.0                                  npm                         
 make                                                                          10.0.0                                  npm                         
 make                                                                          4.4.1-2                                 deb                         
 man-db                                                                        2.13.1-1                                deb                         
-markdown                                                                      10.0.0                                  npm                         
+markdown                                                                      30.0.0                                  npm                         
 markdown-language-features                                                    10.0.0                                  npm                         
 markdown-math                                                                 10.0.0                                  npm                         
 mate-desktop                                                                  1.26.2-1.2                              deb                         
 mate-desktop-common                                                           1.26.2-1.2                              deb                         
-math-intrinsics                                                               1.1.0                                   npm                         
 mawk                                                                          1.3.4.20250131-1                        deb                         
 media-preview                                                                 10.0.0                                  npm                         
 media-types                                                                   13.0.0                                  deb                         
@@ -1320,45 +1204,26 @@ mesa-libgallium                                                               25
 mesa-va-drivers                                                               25.0.7-2+deb13u1                        deb                         
 mesa-vulkan-drivers                                                           25.0.7-2+deb13u1                        deb                         
 microsoft-authentication                                                      0.0.1                                   npm                         
-miller-rabin                                                                  4.0.1                                   npm                         
-mime-db                                                                       1.52.0                                  npm                         
-mime-types                                                                    2.1.35                                  npm                         
-mimic-response                                                                3.1.0                                   npm                         
-minimist                                                                      1.2.8                                   npm                         
-minipass                                                                      7.1.3                                   npm                         
-minizlib                                                                      3.1.0                                   npm                         
-mkdirp                                                                        1.0.4                                   npm                         
-mkdirp-classic                                                                0.5.3                                   npm                         
 more-itertools                                                                10.8.0                                  python                      
 mount                                                                         2.41.5-0+deb13u1                        deb                         
-ms                                                                            2.0.0                                   npm                         
-ms                                                                            2.1.3                                   npm                         
 msgpack                                                                       1.2.2                                   python                      
-multidict                                                                     6.7.1                                   python                      
-napi-build-utils                                                              2.0.0                                   npm                         
-native-is-elevated                                                            0.9.0                                   npm                         
+multidict                                                                     6.8.0                                   python                      
 ncurses-base                                                                  6.5+20250216-2                          deb                         
 ncurses-bin                                                                   6.5+20250216-2                          deb                         
 ncurses-term                                                                  6.5+20250216-2                          deb                         
 netbase                                                                       6.5                                     deb                         
 netcat-traditional                                                            1.10-50                                 deb                         
-next-tick                                                                     1.1.0                                   npm                         
 nftables                                                                      1.1.3-1                                 deb                         
 nginx                                                                         1.26.3-3+deb13u7                        deb                         
 nginx-common                                                                  1.26.3-3+deb13u7                        deb                         
-node-abi                                                                      3.8.0                                   npm                         
-node-gyp-build                                                                4.8.1                                   npm                         
-node-pty                                                                      1.2.0-beta.13                           npm                         
-npm                                                                           1.0.1                                   npm                         
+node-pty                                                                      1.2.0-beta.15                           npm                         
+npm                                                                           10.0.0                                  npm                         
 objective-c                                                                   10.0.0                                  npm                         
 ocl-icd-libopencl1                                                            2.3.3-1                                 deb                         
-once                                                                          1.4.0                                   npm                         
-open                                                                          10.1.2                                  npm                         
 openbox                                                                       3.6.1-12+b2                             deb                         
 openssh-client                                                                1:10.0p1-7+deb13u4                      deb                         
 openssl                                                                       3.5.7-1~deb13u2                         deb                         
 openssl-provider-legacy                                                       3.5.7-1~deb13u2                         deb                         
-opentype.js                                                                   2.0.0                                   npm                         
 p11-kit                                                                       0.25.5-3                                deb                         
 p11-kit-modules                                                               0.25.5-3                                deb                         
 packaging                                                                     26.0                                    python                      
@@ -1369,28 +1234,24 @@ pci.ids                                                                       0.
 pciutils                                                                      1:3.13.0-2                              deb                         
 pcmflux                                                                       2.0.0                                   python                      
 pelorus                                                                       0.2.3                                   python                      
-pend                                                                          1.2.0                                   npm                         
 perl                                                                          10.0.0                                  npm                         
 perl                                                                          5.40.1-6                                deb                         
 perl-base                                                                     5.40.1-6                                deb                         
 perl-modules-5.40                                                             5.40.1-6                                deb                         
 php                                                                           10.0.0                                  npm                         
 php-language-features                                                         10.0.0                                  npm                         
-picomatch                                                                     4.0.4                                   npm                         
 pillow                                                                        12.3.0                                  python                      
 pinentry-curses                                                               1.3.1-2                                 deb                         
 pinentry-gnome3                                                               1.3.1-2                                 deb                         
 pip                                                                           25.1.1                                  python                      
 pixelflux                                                                     2.0.0                                   python                      
 platformdirs                                                                  4.4.0                                   python                      
-playwright-core                                                               1.61.0-alpha-2026-06-04                 npm                         
 poppler-data                                                                  0.4.12-1                                deb                         
 powershell                                                                    10.0.0                                  npm                         
 procps                                                                        2:4.0.4-9                               deb                         
 prometheus-client                                                             0.26.0                                  python                      
 prompt                                                                        10.0.0                                  npm                         
 propcache                                                                     0.5.2                                   python                      
-proxy-from-env                                                                2.1.0                                   npm                         
 psmisc                                                                        23.7-2                                  deb                         
 psutil                                                                        7.2.2                                   python                      
 publicsuffix                                                                  20250328.1952-0.1                       deb                         
@@ -1420,55 +1281,40 @@ python3.13-minimal                                                            3.
 python3.13-venv                                                               3.13.5-2+deb13u4                        deb                         
 pyyaml                                                                        6.0.3                                   python                      
 r                                                                             10.0.0                                  npm                         
-randombytes                                                                   2.1.0                                   npm                         
 razor                                                                         10.0.0                                  npm                         
-rc                                                                            1.2.8                                   npm                         
-readable-stream                                                               3.6.0                                   npm                         
 readline-common                                                               8.2-6                                   deb                         
 references-view                                                               10.0.0                                  npm                         
 resenje.org/singleflight                                                      v0.4.3                                  go-module                   
 restructuredtext                                                              10.0.0                                  npm                         
 rpcsvc-proto                                                                  1.4.3-1                                 deb                         
 ruby                                                                          10.0.0                                  npm                         
-run-applescript                                                               7.0.0                                   npm                         
 rust                                                                          10.0.0                                  npm                         
-safe-buffer                                                                   5.1.2                                   npm                         
-safer-buffer                                                                  2.1.2                                   npm                         
 scss                                                                          10.0.0                                  npm                         
 search-result                                                                 10.0.0                                  npm                         
 seatd                                                                         0.9.1-1                                 deb                         
 sed                                                                           4.9-2+deb13u1                           deb                         
 selkies                                                                       0.0.0                                   python                      
-semver                                                                        7.7.4                                   npm                         
+semver                                                                        7.8.5                                   npm                         
 sensible-utils                                                                0.0.25                                  deb                         
 setuptools                                                                    84.0.0                                  python                      
 shaderlab                                                                     10.0.0                                  npm                         
 shared-mime-info                                                              2.4-5+b2                                deb                         
-shell-quote                                                                   1.8.4                                   npm                         
+shell-quote                                                                   1.10.0                                  npm                         
 shellscript                                                                   10.0.0                                  npm                         
 sigs.k8s.io/json                                                              v0.0.0-20250730193827-2d320260d730      go-module  (+3 duplicates)  
 sigs.k8s.io/randfill                                                          v1.0.0                                  go-module                   
 sigs.k8s.io/structured-merge-diff/v6                                          v6.3.3                                  go-module                   
 sigs.k8s.io/yaml                                                              v1.6.0                                  go-module  (+3 duplicates)  
 simple-browser                                                                10.0.0                                  npm                         
-simple-concat                                                                 1.0.1                                   npm                         
-simple-get                                                                    4.0.1                                   npm                         
 six                                                                           1.17.0                                  python                      
-smart-buffer                                                                  4.2.0                                   npm                         
-socks                                                                         2.8.8                                   npm                         
-socks-proxy-agent                                                             8.0.5                                   npm                         
 sql                                                                           10.0.0                                  npm                         
 sqv                                                                           1.3.0-3+b2                              deb                         
 ssh-askpass                                                                   1:1.2.4.1-16+b1                         deb                         
-ssh2                                                                          1.17.0                                  npm                         
 ssl-cert                                                                      1.1.3                                   deb                         
 starlette                                                                     1.6.0                                   python                      
 stdlib                                                                        go1.23.3                                go-module                   
-stdlib                                                                        go1.26.5                                go-module  (+3 duplicates)  
 stdlib                                                                        go1.26.6                                go-module                   
-stdlib                                                                        go1.26.8                                go-module  (+3 duplicates)  
-string_decoder                                                                1.1.1                                   npm                         
-strip-json-comments                                                           2.0.1                                   npm                         
+stdlib                                                                        go1.26.8                                go-module  (+7 duplicates)  
 stterm                                                                        0.9.2-1                                 deb                         
 sudo                                                                          1.9.16p2-3+deb13u2                      deb                         
 swift                                                                         10.0.0                                  npm                         
@@ -1479,8 +1325,6 @@ sysvinit-utils                                                                3.
 tags.cncf.io/container-device-interface                                       v1.1.0                                  go-module  (+3 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module  (+2 duplicates)  
 tar                                                                           1.35+dfsg-3.1                           deb                         
-tar                                                                           7.5.16                                  npm                         
-tas-client                                                                    0.3.1                                   npm                         
 terminal-suggest                                                              1.0.1                                   npm                         
 theme-abyss                                                                   10.0.0                                  npm                         
 theme-defaults                                                                10.0.0                                  npm                         
@@ -1493,14 +1337,7 @@ theme-solarized-dark                                                          10
 theme-solarized-light                                                         10.0.0                                  npm                         
 theme-tomorrow-night-blue                                                     10.0.0                                  npm                         
 tomli                                                                         2.4.0                                   python                      
-tslib                                                                         2.8.1                                   npm                         
-tunnel-agent                                                                  0.6.0                                   npm                         
 tunnel-forwarding                                                             10.0.0                                  npm                         
-tweetnacl                                                                     0.14.5                                  npm                         
-type                                                                          1.2.0                                   npm                         
-type                                                                          2.1.0                                   npm                         
-type                                                                          2.7.2                                   npm                         
-typedarray-to-buffer                                                          3.1.5                                   npm                         
 typescript                                                                    10.0.0                                  npm                         
 typescript                                                                    6.0.3                                   npm                         
 typescript-language-features                                                  10.0.0                                  npm                         
@@ -1509,39 +1346,24 @@ typing-inspection                                                             0.
 tzdata                                                                        2026b-0+deb13u1                         deb                         
 udev                                                                          257.13-1~deb13u1                        deb                         
 udisks2                                                                       2.10.1-12.1+deb13u2                     deb                         
-undici                                                                        7.28.0                                  npm                         
-universalify                                                                  2.0.1                                   npm                         
-utf-8-validate                                                                5.0.10                                  npm                         
-util-deprecate                                                                1.0.2                                   npm                         
 util-linux                                                                    2.41.5-0+deb13u1                        deb                         
-uuid                                                                          14.0.0                                  npm                         
-uuid                                                                          3.4.0                                   npm                         
 uvicorn                                                                       0.52.4                                  python                      
 uvloop                                                                        0.22.1                                  python                      
 vainfo                                                                        2.22.0+ds1-2                            deb                         
 vb                                                                            10.0.0                                  npm                         
-vscode-capi-scripts                                                           1.0.0                                   npm                         
 vscode-css-languageserver                                                     10.0.0                                  npm                         
 vscode-html-languageserver                                                    10.0.0                                  npm                         
-vscode-js-profile-table                                                       1.0.10                                  npm                         
+vscode-js-profile-table                                                       1.0.11                                  npm                         
 vscode-json-languageserver                                                    1.3.4                                   npm                         
-vscode-jsonrpc                                                                4.0.0                                   npm        (+3 duplicates)  
-vscode-oniguruma                                                              1.7.0                                   npm                         
-vscode-regexpp                                                                3.1.0                                   npm                         
-vscode-textmate                                                               9.3.2                                   npm                         
+vscode-modern-icons                                                           1.0.0                                   npm                         
 vscode-theme-seti                                                             10.0.0                                  npm                         
 vulkan-tools                                                                  1.4.304.0+dfsg1-1                       deb                         
 watchdog                                                                      6.0.0                                   python                      
 watchfiles                                                                    1.2.0                                   python                      
-websocket                                                                     1.0.35                                  npm                         
 websockets                                                                    17.1                                    python                      
 wheel                                                                         0.46.3                                  python                      
-windows-foreground-love                                                       0.6.1                                   npm                         
 wl-clipboard                                                                  2.2.1-2                                 deb                         
 wlr-randr                                                                     0.4.1-1                                 deb                         
-wrappy                                                                        1.0.2                                   npm                         
-ws                                                                            7.5.10                                  npm                         
-ws                                                                            8.20.1                                  npm                         
 x11-apps                                                                      7.7+11+b1                               deb                         
 x11-common                                                                    1:7.7+24+deb13u1                        deb                         
 x11-session-utils                                                             7.7+6+b1                                deb                         
@@ -1576,12 +1398,9 @@ xterm                                                                         39
 xutils                                                                        1:7.7+24+deb13u1                        deb                         
 xvfb                                                                          2:21.1.16-1.3+deb13u3                   deb                         
 xwayland                                                                      2:24.1.6-1                              deb                         
-yaeti                                                                         0.0.6                                   npm                         
-yallist                                                                       5.0.0                                   npm                         
 yaml                                                                          10.0.0                                  npm                         
 yarl                                                                          1.24.5                                  python                      
-yauzl                                                                         3.3.1                                   npm                         
-yazl                                                                          2.4.3                                   npm                         
 zipp                                                                          3.23.0                                  python                      
 zlib1g                                                                        1:1.3.dfsg+really1.3.1-1+b1             deb                         
 zod                                                                           3.25.76                                 npm                         
+zod                                                                           4.4.3                                   npm                         
