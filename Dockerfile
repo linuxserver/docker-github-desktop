@@ -48,7 +48,7 @@ RUN \
   apt install --no-install-recommends -y /tmp/codium.deb && \
   sed -i \
     's:/usr/share/codium/codium:/usr/bin/codium:g' \
-    /usr/share/applications/codium.desktop && \
+    /usr/share/applications/com.visualstudio.CodeOSS.desktop && \
   echo "**** container tweaks ****" && \
   ln -s \
     /usr/bin/xfce4-terminal \
